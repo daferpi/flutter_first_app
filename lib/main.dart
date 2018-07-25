@@ -11,14 +11,7 @@ class MyApp extends StatelessWidget {
 
     return new MaterialApp(
       title: 'Welcome to Flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
-        ),
-        body: Center(
-          child: RandomWords(),
-        ),
-      ),
+      home: RandomWords(),
     );
   }
 }
